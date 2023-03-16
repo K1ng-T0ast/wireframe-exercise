@@ -4,11 +4,12 @@ html {
     margin-right: .5%;
     margin-bottom: .5%;
     margin-top: .5%;
+    max-width: auto;
 }
 
 nav {
     align-items: center;
-    background-color: rgb(90, 90, 90);
+    /* background-color: rgb(90, 90, 90); */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -18,15 +19,15 @@ nav {
 
 a {
     color: grey;
-    margin: 70px;
+    margin: 56px;
     text-decoration: none;
 }
 
 h1 {
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     margin: 20px 0px;
 }
 
@@ -47,7 +48,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: right;
-    margin: 5px;
+    margin: 11px;
 }
 
 #feature{
@@ -81,13 +82,13 @@ p {
 
 button {
     border-radius: 5px;
-    padding: 10px 50px;
-    margin: 5px 0;
     display: flex;
     flex-direction: row;
-    width: fit-content;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    margin: 5px 0;
+    padding: 10px 50px;
+    width: fit-content;
 }
 
 #footer {
